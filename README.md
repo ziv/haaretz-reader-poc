@@ -5,12 +5,12 @@ Overview
 --------
 Proof of concept for Haaretz website reader.
 
-:bulb: This Chromium extension was created in order demonstrate that the premium identification mechanism of Haaretz web site is not effective.
+:bulb: This Chromium extension was created in order demonstrate that the premium identification mechanism of Haaretz web site is not effective.  
 Number of messages regarding to this issue sent to Haaretz using the website contact form on the site, and not responded so far.
 
-:warning: This code is released without any warranty.
-:warning: Do not use this code in any activity which is not for a demonstration.
-:warning: Using of this code for any other purpose may violate copyrights or criminal law.
+:warning: This code is released without any warranty.  
+Do not use this code in any activity which is not for a demonstration.  
+Using of this code for any other purpose may violate copyrights or criminal law.
 
 
 
