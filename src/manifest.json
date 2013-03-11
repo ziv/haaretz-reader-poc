@@ -1,0 +1,21 @@
+{
+	"name"				:	"Haaretz Reader",
+	"version"			:	"0.1",
+	"manifest_version"	:	2,
+	
+	"description"		:	"Read Haaretz articles withtout login",
+	
+	"permissions"		:	[
+		"tabs",
+		"webRequest",
+		"background",
+		"webRequestBlocking",
+		"*://*.haaretz.co.il/*"		
+	],
+
+	
+	"background"		:	{
+		//"persistent"		:	false,
+		"scripts"			:	["haaretz.js"]
+	}
+}
