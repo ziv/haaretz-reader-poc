@@ -17,6 +17,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 		var list	= ["http://www.facebook.com/", "http://www.twitter.com/"];
 		var url		= list[ Math.round(Math.random() * 1) ];
 		
+		
 		/*
 		// TODO: Do we need to salt to URL? - Answer: NO!
 		// create salt
