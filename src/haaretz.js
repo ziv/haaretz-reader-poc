@@ -17,8 +17,9 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 		var list	= ["http://www.facebook.com/", "http://www.twitter.com/"];
 		var url		= list[ Math.round(Math.random() * 1) ];
 		
+		/*
+		// TODO: Do we need to salt to URL? - Answer: NO!
 		// create salt
-		// TODO: is referer refer to full URI? or only scheme and domain?
 		var len		= Math.round(Math.random() * 7);
 		var chars	= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 		var salt	= "";
@@ -28,7 +29,8 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 		}
 		url += salt;
 		//console.log(url);
-
+		*/
+		
 		// add referer
 		info.requestHeaders.push({
 			name	: "Referer",
