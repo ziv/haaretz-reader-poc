@@ -18,6 +18,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 		var url		= list[ Math.round(Math.random() * 1) ];
 		
 		
+		
 		/*
 		// TODO: Do we need to salt to URL? - Answer: NO!
 		// create salt
@@ -31,6 +32,8 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 		url += salt;
 		//console.log(url);
 		*/
+		
+		
 		
 		// add referer
 		info.requestHeaders.push({
