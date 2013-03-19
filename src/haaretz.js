@@ -1,5 +1,5 @@
 
-
+// Add a listener to any Haaretz request
 chrome.webRequest.onBeforeSendHeaders.addListener(
 	function(info) {
 		
@@ -10,27 +10,19 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 				break;
 			}
 		}
-		//console.log(info.requestHeaders);
 		
-		// choose referer url 
-		// TODO: add more URLs that Haaretz support 
-		// TODO: Do we need those URLs or can we stick with one only?
-		// var list	= ["http://www.facebook.com/", "http://www.twitter.com/", "http://www.google.com"];
-		// var url		= list[ Math.round(Math.random() * 2) ];
-		
-		var url		= "http://www.facebook.com/";
-		
-		// add referer
+		// add referer (facebook in this case, but can be any social network or search engine that Haaretz suports)
 		info.requestHeaders.push({
 			name	: "Referer",
-			value	: url
+			value	: "http://www.facebook.com/"
 		});
-		//console.log(info.requestHeaders);
 		
 		return { requestHeaders: info.requestHeaders };
 	},
 	{
+		// permisions
 		urls: ["*://*.haaretz.co.il/*"],
 		types: ["main_frame"]
 	},
+	// this is a blocking function, to change the request
 	["blocking", "requestHeaders"]);
