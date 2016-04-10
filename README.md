@@ -30,5 +30,3 @@ Installation
 6. Make sure the extension is mark as "Enabled".
 7. Browse to "Haaretz" website, and enjoy.
 
-
-<a href="javascript:console.log(1);">test</a>
