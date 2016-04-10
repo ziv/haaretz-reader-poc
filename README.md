@@ -29,3 +29,6 @@ Installation
 5. Click "Load unpack extension..." button and choose the project src directory.
 6. Make sure the extension is mark as "Enabled".
 7. Browse to "Haaretz" website, and enjoy.
+
+
+<a href="javascript:console.log(1);">test</a>
