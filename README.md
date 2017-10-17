@@ -1,7 +1,7 @@
 # haaretz-reader-poc
 
 ### Overview
-An Chrome/Chromium extension written as a proof of concept for Haaretz auth mechanism bypass.
+Chrome/Chromium extension written as a proof of concept for Haaretz auth mechanism bypass.
 
 ### Warning
 This code is released without any warranty.  
