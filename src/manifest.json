@@ -1,8 +1,8 @@
 {
-  "name": "Haaretz Reader",
+  "name": "Haaretz/Themarker Reader",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Read Haaretz articles withtout login",
+  "description": "Read Haaretz/Themarker premium articles without login",
   "permissions": [
     "tabs",
     "webRequest",
@@ -13,7 +13,7 @@
   ],
   "background": {
     "scripts": [
-      "haaretz.js"
+      "main.js"
     ]
   }
 }
