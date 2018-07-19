@@ -1,5 +1,7 @@
 # haaretz-reader-poc
 
+This extensin is deprecated
+
 ### Overview
 Chrome/Chromium extension written as a proof of concept for Haaretz/Themarker auth mechanism bypass.
 
