@@ -1,6 +1,6 @@
 # haaretz-reader-poc
 
-This extensin is deprecated
+This extensin is deprecated, check out https://github.com/ziv/paywall-killer
 
 ### Overview
 Chrome/Chromium extension written as a proof of concept for Haaretz/Themarker auth mechanism bypass.
