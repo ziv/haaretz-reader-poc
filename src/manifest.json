@@ -8,8 +8,8 @@
     "webRequest",
     "background",
     "webRequestBlocking",
-    "*://*.haaretz.co.il/*",
-    "*://*.themarker.com/*"
+    "https://*.haaretz.co.il/*",
+    "https://*.themarker.com/*"
   ],
   "background": {
     "scripts": [
